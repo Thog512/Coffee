@@ -1,0 +1,99 @@
+{
+  "business_info": {
+    "name": "Hiniu Coffee & Tea",
+    "address": "512Đ. Phạm Văn Đồng, Hiệp Bình Chánh, Thủ Đức",
+    "phone": "0586159466",
+    "hours": {
+      "weekday": "7:00 - 22:00",
+      "weekend": "7:00 - 23:00"
+    },
+    "specialties": [
+      "Cà phê đặc sản Việt Nam",
+      "Trà sữa thủ công",
+      "Bánh ngọt homemade",
+      "Không gian làm việc yên tĩnh"
+    ],
+    "amenities": {
+      "wifi": "Miễn phí tốc độ cao",
+      "parking": "Có chỗ đậu xe rộng",
+      "power": "Ổ cắm điện đầy đủ",
+      "space": "Khu vực riêng cho nhóm"
+    }
+  },
+  "faq": [
+    {
+      "question": "Quán có wifi không?",
+      "answer": "Có ạ! Quán có wifi miễn phí tốc độ cao, rất phù hợp để làm việc hoặc học tập. 📶"
+    },
+    {
+      "question": "Có chỗ đậu xe không?",
+      "answer": "Có ạ! Quán có bãi đậu xe rộng rãi cho cả ô tô và xe máy. 🚗🏍️"
+    },
+    {
+      "question": "Có thể đặt chỗ trước không?",
+      "answer": "Có ạ! Bạn có thể đặt chỗ qua hotline hoặc trực tiếp trên website. Đặc biệt cho nhóm đông nên đặt trước để có chỗ tốt nhất! 📞"
+    },
+    {
+      "question": "Có ship không?",
+      "answer": "Có ạ! Quán có dịch vụ giao hàng tận nơi. Bạn có thể đặt online và shipper sẽ giao trong 30-45 phút. 🚚"
+    },
+    {
+      "question": "Có món chay không?",
+      "answer": "Có ạ! Quán có bánh ngọt chay và đồ uống thuần chay. Bạn có thể yêu cầu không sữa động vật. 🌱"
+    },
+    {
+      "question": "Làm việc nhóm được không?",
+      "answer": "Được ạ! Quán có khu vực riêng cho nhóm 4-8 người, có bàn lớn và ổ cắm điện. Rất phù hợp họp nhóm hoặc brainstorm! 💼"
+    },
+    {
+      "question": "Có khuyến mãi không?",
+      "answer": "Có nhiều chương trình ạ! Check website hoặc Facebook để xem khuyến mãi hôm nay. Thành viên thân thiết có ưu đãi đặc biệt! 🎁"
+    },
+    {
+      "question": "Thanh toán như thế nào?",
+      "answer": "Quán nhận tiền mặt, thẻ, và chuyển khoản (Momo, Banking). Rất tiện lợi! 💳"
+    }
+  ],
+  "product_knowledge": {
+    "coffee_types": {
+      "espresso": "Cà phê ý đậm đà, mạnh mẽ, phù hợp người thích đắng",
+      "americano": "Espresso pha loãng, vị nhẹ hơn nhưng vẫn giữ hương",
+      "latte": "Espresso + sữa tươi, ngọt dịu, béo ngậy",
+      "cappuccino": "Espresso + bọt sữa dày, vị cân bằng",
+      "viet_black": "Cà phê phin truyền thống, đậm đà đặc trưng Việt Nam",
+      "bac_xiu": "Cà phê + nhiều sữa, rất ngọt, phù hợp người mới uống"
+    },
+    "recommendations": {
+      "first_timer": ["Bạc Xỉu", "Cappuccino", "Latte"],
+      "coffee_lover": ["Espresso", "Americano", "Cà Phê Đen"],
+      "sweet_tooth": ["Bạc Xỉu", "Trà Sữa", "Chocolate", "Caramel Macchiato"],
+      "study_work": ["Americano", "Latte", "Matcha"],
+      "hot_day": ["Cold Brew", "Smoothie", "Trà Đào"],
+      "evening": ["Trà Thảo Mộc", "Hot Chocolate", "Matcha Latte"]
+    }
+  },
+  "conversation_templates": {
+    "upsell": [
+      "Bạn muốn thêm bánh ngọt kèm theo không? Combo rất hời đấy! 🍰",
+      "Gợi ý thêm {product} rất hợp với {ordered_product} bạn vừa chọn ạ!",
+      "Hôm nay có khuyến mãi mua 2 tặng 1 cho {category}, bạn quan tâm không?"
+    ],
+    "alternatives": [
+      "Món này hết rồi ạ, nhưng {alternative} cũng rất ngon, bạn thử nhé!",
+      "Trong khi chờ món chính, bạn muốn gọi {quick_item} trước không?"
+    ],
+    "feedback_request": [
+      "Bạn thấy {product} thế nào? Ngon không ạ? 😊",
+      "Cảm ơn bạn đã order! Đánh giá 5 sao giúp quán nhé! ⭐⭐⭐⭐⭐"
+    ]
+  },
+  "edge_cases": {
+    "complaints": {
+      "cold_drink": "Xin lỗi bạn vì sự bất tiện! Quán sẽ pha lại ngay. Bạn chờ 5 phút nhé! 🙏",
+      "late_delivery": "Xin lỗi bạn! Shipper đang gặp tắc đường. Quán sẽ tặng voucher 20% cho lần sau để bù đắp! 🎁",
+      "wrong_order": "Rất xin lỗi! Có nhầm lẫn. Quán sẽ giao đúng món + tặng thêm 1 món miễn phí! 🙏"
+    },
+    "out_of_stock": "Món này tạm hết ạ. Bạn thử {alternative_1} hoặc {alternative_2} nhé! Cũng ngon không kém đâu! 😊",
+    "busy_hours": "Giờ cao điểm nên hơi đông ạ. Bạn có thể đặt online để nhận ngay khi đến quán! 📱"
+  }
+}
